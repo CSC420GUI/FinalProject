@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_red">
+<<<<<<< HEAD
 
     <ImageButton
         android:id="@+id/list"
@@ -20,6 +21,8 @@
         app:layout_constraintHorizontal_bias="0.024"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+=======
+>>>>>>> e180cf97d173309af9b01d669a7007da5c754e7b
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -52,6 +55,7 @@
         app:layout_constraintHorizontal_bias="0.024"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+<<<<<<< HEAD
 
 
     <com.mindorks.placeholderview.SwipePlaceHolderView
@@ -63,4 +67,10 @@
     </com.mindorks.placeholderview.SwipePlaceHolderView>
 
 
+=======
+    <com.mindorks.placeholderview.SwipePlaceHolderView
+        android:id="@+id/swipeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+>>>>>>> e180cf97d173309af9b01d669a7007da5c754e7b
 </FrameLayout>

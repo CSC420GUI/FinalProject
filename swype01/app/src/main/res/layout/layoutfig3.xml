@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@color/light_red"
+=======
+>>>>>>> e180cf97d173309af9b01d669a7007da5c754e7b
     tools:context=".Fig3">
 
     <SearchView
