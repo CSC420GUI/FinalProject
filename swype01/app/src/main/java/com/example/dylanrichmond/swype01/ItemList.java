@@ -23,6 +23,41 @@ public class ItemList extends AppCompatActivity {
                 goToSwypingScreen();
             }
         });
+
+        final ImageButton checkOutButton = findViewById(R.id.checkoutButton);
+        checkOutButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                goToSwypingScreen();
+            }
+        });
+
+        final ImageButton cancelButton1 = findViewById(R.id.cancelButton1);
+        cancelButton1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                goToSwypingScreen();
+            }
+        });
+
+        final ImageButton cancelButton2 = findViewById(R.id.cancelButton2);
+        cancelButton2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                goToSwypingScreen();
+            }
+        });
+
+        final ImageButton addButton1 = findViewById(R.id.addButton1);
+        addButton1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                goToSwypingScreen();
+            }
+        });
+
+        final ImageButton addButton2 = findViewById(R.id.addButton2);
+        addButton2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                goToSwypingScreen();
+            }
+        });
     }
 
     private void goToSwypingScreen() {
