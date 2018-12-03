@@ -10,7 +10,7 @@
     <!--android:background="@color/light_red"-->
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textViewPhone"
         android:layout_width="222dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
@@ -25,7 +25,24 @@
         app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.363" />
+        app:layout_constraintVertical_bias="0.43" />
+
+    <TextView
+        android:id="@+id/textViewYeezy"
+        android:layout_width="222dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Sketchers Dad Three's $420"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
 
     <ImageButton
     android:id="@+id/backButton"
@@ -63,14 +80,17 @@
         android:layout_height="43dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/remove"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.024"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
 
     <ImageButton
         android:id="@+id/cancelButton2"
@@ -78,14 +98,17 @@
         android:layout_height="43dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/remove"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.024"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
 
     <ImageButton
         android:id="@+id/addButton1"
@@ -93,14 +116,17 @@
         android:layout_height="43dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/add"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
 
     <ImageButton
         android:id="@+id/addButton2"
@@ -108,30 +134,35 @@
         android:layout_height="43dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:background="@drawable/add"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="222dp"
-        android:layout_height="42dp"
+        android:id="@+id/textView2"
+        android:layout_width="140dp"
+        android:layout_height="52dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Yeezy Turtle Dove OG DeadStock $600"
+        android:text="Item List"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.217" />
+        app:layout_constraintVertical_bias="0.104" />
+
 
 </android.support.constraint.ConstraintLayout>

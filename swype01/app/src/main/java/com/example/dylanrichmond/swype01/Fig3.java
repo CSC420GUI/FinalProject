@@ -18,15 +18,7 @@ public class Fig3 extends AppCompatActivity{
         final SearchView searchButton = findViewById(R.id.searchButton);
         //idk what to implement for the settings but it would go here
 
-
-<<<<<<< HEAD
-
-
-
-
-
-=======
->>>>>>> e180cf97d173309af9b01d669a7007da5c754e7b
+        final Button testButton = findViewById(R.id.testbutton);
         final ImageButton settingsButton = findViewById(R.id.settingsButton);
         final ImageButton piechartButton = findViewById(R.id.piechartButton);
         settingsButton.setOnClickListener(new View.OnClickListener() {
@@ -42,6 +34,13 @@ public class Fig3 extends AppCompatActivity{
             }
         });
 
+        testButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                goToItemList();
+            }
+        });
+
+
     }
 
     private void goToSettings() {
@@ -52,5 +51,15 @@ public class Fig3 extends AppCompatActivity{
     private void goToSWYPING() {
         Intent swyping = new Intent(this, SWYPING.class);
         startActivity(swyping);
+    }
+
+    private void goToItemList() {
+        Intent itemList = new Intent(this, ItemList.class);
+        startActivity(itemList);
+    }
+
+    private void goToCheckout() {
+        Intent checkOut = new Intent(this, Checkout.class);
+        startActivity(checkOut);
     }
 }

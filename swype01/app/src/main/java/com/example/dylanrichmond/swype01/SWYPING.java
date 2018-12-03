@@ -12,8 +12,6 @@ public class SWYPING extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layoutswyping);
-
         final ImageButton backButton = findViewById(R.id.backButton);
         backButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
