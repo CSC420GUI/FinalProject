@@ -1,0 +1,37 @@
+[
+  {
+    "url":"https://i5.walmartimages.com/asr/c65dea44-aeb6-48d1-93b4-afc77319f291_1.8a33d12192e4719d63b9e6868223a6f3.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+    "title":"PS4",
+    "price":"$250",
+    "description":"playstation 4 pro",
+    "location":"New York"
+  },
+  {
+    "url":"https://images-na.ssl-images-amazon.com/images/I/51R4ZvEJUPL._SL1024_.jpg",
+    "title":"iPhone X",
+    "price":"$900",
+    "description":"",
+    "location":"California"
+  },
+  {
+    "url":"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSGp0LoumeXKOdkILMVReM4UArRxxXHP0wv45XtwTYbPFeS3OC1_2VPhpuJnEValvZrSPXB307SUa6P_--RuZNv-kwCPKYQMV-kZ-t_9y8&usqp=CAE",
+    "title":"Samsung TV",
+    "price":"$500",
+    "description":"",
+    "location":"Atlantic City"
+  },
+  {
+    "url":"https://assets.bombas.com/image/fetch/f_auto,q_auto/https://cdn.shopify.com/s/files/1/1119/5850/products/mixed-neutral-layflat-product_ef725918-f348-4200-aacd-5df84ae89d24_1300x1300.jpg%3Fv%3D1533158002",
+    "title":"Socks",
+    "price":"$40",
+    "description":"",
+    "location":"New City"
+  },
+  {
+    "url":"https://assets.adidas.com/images/w_840,h_840,q_auto:sensitive/2f07ef527bfa4a0aaf79a97d0187b106_9366/01_standard.jpg",
+    "title":"Yeezy 500",
+    "price":"$300",
+    "description":"Salt",
+    "location":"New York City"
+  }
+]
