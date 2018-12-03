@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dylanrichmond.swype01">
-<<<<<<< HEAD
+
     <uses-permission android:name="android.permission.INTERNET"/>
-=======
->>>>>>> e180cf97d173309af9b01d669a7007da5c754e7b
 
     <application
         android:allowBackup="true"
@@ -13,10 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
 
-=======
->>>>>>> e180cf97d173309af9b01d669a7007da5c754e7b
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,14 +33,12 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-=======
         <activity android:name=".ItemList">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
->>>>>>> e180cf97d173309af9b01d669a7007da5c754e7b
+
     </application>
 
 </manifest>

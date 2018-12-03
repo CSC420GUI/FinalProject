@@ -2,7 +2,6 @@ package com.example.dylanrichmond.swype01;
 
 import android.content.Context;
 import android.content.res.AssetManager;
-import android.provider.ContactsContract;
 import android.util.Log;
 
 import com.google.gson.Gson;
@@ -19,14 +18,14 @@ public class Utils {
 
     private static final String TAG = "Utils";
 
-    public static List<ContactsContract.Profile> loadProfiles(Context context){
+    public static List<Listing> loadListings(Context context){
         try{
             GsonBuilder builder = new GsonBuilder();
             Gson gson = builder.create();
-            JSONArray array = new JSONArray(loadJSONFromAsset(context, "profiles.json"));
-            List<ContactsContract.Profile> profileList = new ArrayList<>();
+            JSONArray array = new JSONArray(loadJSONFromAsset(context, "items.json"));
+            List<Listing> profileList = new ArrayList<>();
             for(int i=0;i<array.length();i++){
-                ContactsContract.Profile profile = gson.fromJson(array.getString(i), ContactsContract.Profile.class);
+                Listing profile = gson.fromJson(array.getString(i), Listing.class);
                 profileList.add(profile);
             }
             return profileList;

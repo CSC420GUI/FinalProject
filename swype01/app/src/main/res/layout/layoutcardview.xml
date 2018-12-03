@@ -25,7 +25,7 @@
             android:layout_height="442dp"
             android:layout_marginBottom="75dp"
             android:layout_marginTop="50dp"
-            android:scaleType="centerCrop" />
+            android:scaleType="fitXY" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="75dp"

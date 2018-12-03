@@ -19,14 +19,6 @@ public class Fig3 extends AppCompatActivity{
         //idk what to implement for the settings but it would go here
 
 
-<<<<<<< HEAD
-
-
-
-
-
-=======
->>>>>>> e180cf97d173309af9b01d669a7007da5c754e7b
         final ImageButton settingsButton = findViewById(R.id.settingsButton);
         final ImageButton piechartButton = findViewById(R.id.piechartButton);
         settingsButton.setOnClickListener(new View.OnClickListener() {
